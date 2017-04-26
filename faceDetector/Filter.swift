@@ -96,8 +96,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         let videoOutput = AVCaptureVideoDataOutput()
         
        
-        videoOutput.setSampleBufferDelegate(self, queue: )
-        videoOutput.setSampleBufferDelegate(self, queue: dispatch_queue_create("sample buffer delegate", DispatchQueue.mai))
+//        videoOutput.setSampleBufferDelegate(self, queue: )
+//        videoOutput.setSampleBufferDelegate(self, queue: dispatch_queue_create("sample buffer delegate", DispatchQueue.mai))
         
         if captureSession.canAddOutput(videoOutput)
         {
