@@ -89,4 +89,11 @@ class ImageViewController: UIViewController {
         
     }
 
+    @IBAction func toFilter(_ sender: Any) {
+        
+        guard let feedVC = storyboard?.instantiateViewController(withIdentifier: "FeedViewController") as? FeedViewController else { return }
+        navigationController?.pushViewController(feedVC, animated: true)
+        
+    }
+
 }

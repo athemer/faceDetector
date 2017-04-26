@@ -14,6 +14,12 @@
 		D1A66EF51EAF567700CA302B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EF41EAF567700CA302B /* ImageViewController.swift */; };
 		D1A66EF71EAF865300CA302B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EF61EAF865300CA302B /* CameraViewController.swift */; };
 		D1A66EF91EAFA03E00CA302B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EF81EAFA03E00CA302B /* Filter.swift */; };
+		D1A66EFF1EB048F700CA302B /* CaptureSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EFA1EB048F700CA302B /* CaptureSessionController.swift */; };
+		D1A66F001EB048F700CA302B /* CoreImageAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EFB1EB048F700CA302B /* CoreImageAdditions.swift */; };
+		D1A66F011EB048F700CA302B /* FaceObscurationFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EFC1EB048F700CA302B /* FaceObscurationFilter.swift */; };
+		D1A66F021EB048F700CA302B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EFD1EB048F700CA302B /* FeedViewController.swift */; };
+		D1A66F031EB048F700CA302B /* PixellationFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66EFE1EB048F700CA302B /* PixellationFilter.swift */; };
+		D1A66F051EB04F4700CA302B /* AVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A66F041EB04F4700CA302B /* AVViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		D1A66EF41EAF567700CA302B /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		D1A66EF61EAF865300CA302B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D1A66EF81EAFA03E00CA302B /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		D1A66EFA1EB048F700CA302B /* CaptureSessionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureSessionController.swift; sourceTree = "<group>"; };
+		D1A66EFB1EB048F700CA302B /* CoreImageAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImageAdditions.swift; sourceTree = "<group>"; };
+		D1A66EFC1EB048F700CA302B /* FaceObscurationFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceObscurationFilter.swift; sourceTree = "<group>"; };
+		D1A66EFD1EB048F700CA302B /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D1A66EFE1EB048F700CA302B /* PixellationFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixellationFilter.swift; sourceTree = "<group>"; };
+		D1A66F041EB04F4700CA302B /* AVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				D1A66EF41EAF567700CA302B /* ImageViewController.swift */,
 				D1A66EF61EAF865300CA302B /* CameraViewController.swift */,
 				D1A66EF81EAFA03E00CA302B /* Filter.swift */,
+				D1A66EFA1EB048F700CA302B /* CaptureSessionController.swift */,
+				D1A66EFB1EB048F700CA302B /* CoreImageAdditions.swift */,
+				D1A66EFC1EB048F700CA302B /* FaceObscurationFilter.swift */,
+				D1A66EFD1EB048F700CA302B /* FeedViewController.swift */,
+				D1A66EFE1EB048F700CA302B /* PixellationFilter.swift */,
+				D1A66F041EB04F4700CA302B /* AVViewController.swift */,
 				D1A66EE41EAF546D00CA302B /* Main.storyboard */,
 				D1A66EE71EAF546D00CA302B /* Assets.xcassets */,
 				D1A66EE91EAF546D00CA302B /* LaunchScreen.storyboard */,
@@ -143,9 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A66EFF1EB048F700CA302B /* CaptureSessionController.swift in Sources */,
 				D1A66EF51EAF567700CA302B /* ImageViewController.swift in Sources */,
+				D1A66F011EB048F700CA302B /* FaceObscurationFilter.swift in Sources */,
 				D1A66EF91EAFA03E00CA302B /* Filter.swift in Sources */,
+				D1A66F031EB048F700CA302B /* PixellationFilter.swift in Sources */,
 				D1A66EE11EAF546D00CA302B /* AppDelegate.swift in Sources */,
+				D1A66F001EB048F700CA302B /* CoreImageAdditions.swift in Sources */,
+				D1A66F051EB04F4700CA302B /* AVViewController.swift in Sources */,
+				D1A66F021EB048F700CA302B /* FeedViewController.swift in Sources */,
 				D1A66EF71EAF865300CA302B /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

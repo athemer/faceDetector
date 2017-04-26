@@ -51,15 +51,16 @@ let Filters = [
 
 let FilterNames = [String](Filters.keys).sorted()
 
-class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate
+class FilterViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate
 {
     let mainGroup = UIStackView()
-    let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+    let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
     let filtersControl = UISegmentedControl(items: FilterNames)
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
         
         view.addSubview(mainGroup)
         mainGroup.axis = UILayoutConstraintAxis.vertical
@@ -95,9 +96,9 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         let videoOutput = AVCaptureVideoDataOutput()
         
+        
+        videoOutput.setSampleBufferDelegate(self, queue: DispatchQueue(label: "sample buffer delegate", attributes: []))
        
-//        videoOutput.setSampleBufferDelegate(self, queue: )
-//        videoOutput.setSampleBufferDelegate(self, queue: dispatch_queue_create("sample buffer delegate", DispatchQueue.mai))
         
         if captureSession.canAddOutput(videoOutput)
         {

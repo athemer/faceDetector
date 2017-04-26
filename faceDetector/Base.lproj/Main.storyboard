@@ -55,6 +55,14 @@
                                     <action selector="cameraTapped:" destination="xyN-ZP-65O" eventType="touchUpInside" id="JDY-Xd-Qbg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mg-Zu-zg9">
+                                <rect key="frame" x="317" y="107" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="test"/>
+                                <connections>
+                                    <action selector="toFilter:" destination="xyN-ZP-65O" eventType="touchUpInside" id="wga-qi-JT0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -120,6 +128,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RgT-qB-8fy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="948" y="165.06746626686657"/>
+        </scene>
+        <!--Feed View Controller-->
+        <scene sceneID="Etv-go-fEg">
+            <objects>
+                <viewController storyboardIdentifier="FeedViewController" id="EFK-DO-Euv" customClass="FeedViewController" customModule="faceDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7x1-Si-Ssc"/>
+                        <viewControllerLayoutGuide type="bottom" id="hSv-EX-mrp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xyv-7m-Q57">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FI8-J8-fmU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1682" y="149"/>
         </scene>
     </scenes>
     <resources>
